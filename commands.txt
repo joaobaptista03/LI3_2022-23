@@ -1,0 +1,5 @@
+./main ../Dataset ../Dataset/inputs.txt
+
+valgrind --leak-check=yes --log-file=valgrind.rpt ./main ../Dataset ../Dataset/inputs.txt
+
+gitk --all --date-order
